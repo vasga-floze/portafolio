@@ -214,6 +214,16 @@ p {
     opacity: 1;
 }
 
+.btn-play-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Agrega un margen derecho para separar los botones */
+}
+
+.btn-play-container:last-child {
+    margin-right: 0; /* Elimina el margen derecho en el último botón */
+}
+
 
 /*** About ***/
 #about .years .display-1 {
